@@ -1,0 +1,428 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+
+/* HEADER */
+
+.header {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.logo, .btn div, .lng div {
+    text-align: center;
+}
+
+.social div, .telephone div {
+    font-size: 16px;
+    color: #00acac;
+    padding-top: 3px;
+}
+
+.lng div {
+    padding-top: 13px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.social div:last-child, .telephone div:last-child {
+    padding-left: 20px;
+}
+
+
+/* NAVIGATION */
+
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    border-radius: 0;
+    background: #00acac;
+}
+
+.nav li a {
+    font-size: 13px;
+}
+
+.navbar-default .navbar-nav > li > a {
+     color: white;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #00acac;
+}
+
+.navbar-toggle {
+    border: 0;
+}
+
+.more a {
+    text-decoration: underline;
+}
+
+.navbar-header {
+    background-color: white; 
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #00acac;
+}
+
+.logo {
+    padding: 0;
+}
+.navbar-brand img {
+    padding: 4px;
+}
+
+.navbar-header .lng {
+    text-align: right;
+    padding-right: 70px;
+}
+
+
+/* PICTURE */
+
+.picture {
+    height: 250px;
+    background-image: url(../photo/picture.jpg);
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    
+}
+
+.pic {
+    font-size: 45px;
+    color: white;
+    text-align: center;
+    margin-top: 85px;
+}
+
+.breadcrumb {
+    position: absolute;
+    left: 8%;
+    top: 5%;
+    background-color: transparent;
+}
+
+.breadcrumb li a {
+    color: white;
+    font-weight: lighter;
+}
+
+.home {
+    text-decoration: underline;
+}
+
+
+
+/* MAIN */
+
+main {
+    background: white;
+    position: relative;
+}
+
+.navbar-offcanvas .list a {
+    list-style: none;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 20px;
+    cursor: pointer;
+    color: #333;
+    border-left: 0;
+    border-right: 0;
+}
+
+.navbar-offcanvas .list {
+    margin-top: 35px;
+    padding: 0;
+
+}
+
+.navbar-offcanvas .list {
+    border-bottom: 1px solid #DCDCDC;
+}
+
+
+.navbar-offcanvas .list  {
+    border-bottom: 0;
+}
+
+.navbar-offcanvas .list :first-child {
+    border-top: 0;
+}
+
+.left-nav {
+    background-color: white;
+}
+
+.form {
+    height: 335px;
+    background: rgb(236,247,247);
+    margin-top: 60px;
+}
+
+
+.form > div {
+    font-size: 29px;
+    color: #00acac;
+    padding-top: 15px;
+    margin-bottom: 15px;
+    font-weight: lighter; 
+    text-align: center;
+}
+
+main .col-lg-9 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.form form div, .form form select {
+    margin-bottom: 6px;
+}
+
+.form form button {
+    margin-top: 12px;
+}
+
+.form form {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.banner {
+    height: 200px;
+    background: rgb(168,185,198);
+    margin-top: 40px;
+    margin-bottom: 70px;
+    position: relative;
+}
+
+.banner div {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.banner-hidden {
+    background-image: url(../photo/banner_hidden.png);
+    background-position: center center;
+    background-size: cover;
+    height: 280px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    position: relative;
+    
+}
+
+.banner-hidden > div {
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 25px;
+    font-weight: bold;
+    width: 170px;
+    text-align: center;
+    color: white;
+}
+
+.banner-hidden > div div:last-child {
+    font-size: 15px;
+    font-weight: normal;
+    border: 2px solid white;
+    border-radius: 8px;
+    margin-top: 15px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.headtext {
+    font-size: 29px;
+    color: #00acac;
+    margin-top: 25px;
+    margin-bottom: 13px;
+    font-weight: lighter;  
+}
+
+.headtext2 {
+    font-size: 29px;
+    color: #00acac;
+    margin-bottom: 13px;
+    font-weight: lighter;  
+}
+
+.secondtext {
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+#carousel {
+    margin-top: 35px;
+    position: relative;
+}
+
+#carousel2 {
+    margin-bottom: 60px;  
+    position: relative;
+}
+
+
+.left span, .right span {
+    position: absolute;
+    top: 45%;
+    color: white;
+    background-color: #00acac;
+    padding: 7px;
+    font-size: 25px;
+}
+
+.left span{
+    margin-left: -45px;
+}
+
+.right span {
+    margin-left: 7px;;
+}
+
+
+.second-container .col-lg-4, .second-container .col-lg-5 {
+    margin-top: 50px;
+}
+
+main .right-btn {
+    position: absolute;
+    right: -48px;;
+    top: 250px;
+    transform: rotate(-90deg);
+    border-radius: 0;
+}
+
+
+
+/* SECTION */
+
+section {
+    background-image: url(../photo/main2.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+section > div {
+    font-size: 30px;
+    color: white;
+    padding-top: 25px;
+    font-weight: lighter; 
+    text-align: center;
+}
+
+
+.textcenter {
+    height: 280px;
+    background: rgb(48,173,191);
+    margin: 40px auto; 
+    opacity: 0.6;
+}
+
+.textcenter > div {
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 25px;
+    font-weight: bold;
+    width: 170px;
+}
+
+.textcenter > div div:last-child {
+    font-size: 15px;
+    font-weight: normal;
+    border: 2px solid white;
+    border-radius: 8px;
+    margin-top: 15px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+
+/* FOOTER */
+
+footer {
+    background: rgb(43,43,43);
+}
+
+
+/* FOOTER_1 */
+
+footer #MainMenu ul {
+    padding: 30px;
+}
+
+footer #MainMenu > ul {
+    border-bottom: 3px solid rgb(77,77,77);
+}
+
+footer #MainMenu ul li {
+    text-align: center;
+}
+
+footer #MainMenu ul a {
+    text-decoration: none;
+    color: rgb(219,219,219);
+    font-size: 16px;
+}
+
+
+/* FOOTER_2 */
+
+.year, .net, .design {
+    color: grey;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.net li{
+    display: inline-block;
+    cursor: pointer;
+    padding-right: 50px;
+}
+
+.net :last-child {
+    padding-right: 0;
+}
+
+.net {
+    padding-left: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
